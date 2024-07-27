@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import iot from "../../Assets/Projects/iot.png";
 import nyolo from "../../Assets/Projects/nyolo.png";
 import warunglaris from "../../Assets/Projects/warunglaris.png";
+import tokobuku from "../../Assets/Projects/image.png"
 
 
 function Projects() {
@@ -47,6 +48,15 @@ function Projects() {
               title="Warung Laris"
               description="Web ini merupakan website dari salah satu UMKM diBandung. UMKM ini menjual bebagai kebutuhan hidup seperti : mi instan, sayuran, kebutuhan mandi, dan lain lain."
               ghLink="https://github.com/tiyoharyos/warunglaris"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tokobuku}
+              isBlog={false}
+              title="Toko Buku"
+              description="Projek Web ini merupakan hasil pembelajaran saya mengenai react.js untuk forntend, node.js sebagai backend dan MySQL sebagai database"
+              ghLink="https://github.com/tiyoharyos/TokoBuku"
             />
           </Col>
         </Row>
