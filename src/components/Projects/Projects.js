@@ -46,8 +46,7 @@ function Projects() {
               isBlog={false}
               title="Warung Laris"
               description="Web ini merupakan website dari salah satu UMKM diBandung. UMKM ini menjual bebagai kebutuhan hidup seperti : mi instan, sayuran, kebutuhan mandi, dan lain lain."
-              ghLink="https://github.com/tiyoharyos/nyolo_pilem"
-              demoLink="https://nyolo-pilem.vercel.app/"
+              ghLink="https://github.com/tiyoharyos/warunglaris"
             />
           </Col>
         </Row>
