@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import iot from "../../Assets/Projects/iot.png";
 import nyolo from "../../Assets/Projects/nyolo.png";
+import warunglaris from "../../Assets/Projects/warunglaris.png";
 
 
 function Projects() {
@@ -35,6 +36,16 @@ function Projects() {
               isBlog={false}
               title="Nyolo Pilem"
               description="Nyolo Pilem merupakan website yang berisikan film film yang sedang tranding saat ini"
+              ghLink="https://github.com/tiyoharyos/nyolo_pilem"
+              demoLink="https://nyolo-pilem.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={warunglaris}
+              isBlog={false}
+              title="Warung Laris"
+              description="Web ini merupakan website dari salah satu UMKM diBandung. UMKM ini menjual bebagai kebutuhan hidup seperti : mi instan, sayuran, kebutuhan mandi, dan lain lain."
               ghLink="https://github.com/tiyoharyos/nyolo_pilem"
               demoLink="https://nyolo-pilem.vercel.app/"
             />
