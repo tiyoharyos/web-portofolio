@@ -66,7 +66,7 @@ function Projects() {
               isBlog={false}
               title="Web Pelatihan Koprasi"
               description="Projek Web ini merupakan projekan untuk pendaftaran dan informasi mengenai pelatihan koprasi di LAPENKOP"
-              ghLink="https://github.com/tiyoharyos/TokoBuku"
+              ghLink="https://github.com/tiyoharyos/projek_koprasi"
             />
           </Col>
         </Row>
